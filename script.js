@@ -35,7 +35,7 @@ document.querySelector(".check").addEventListener("click", function () {
       document.querySelector(".highscore").textContent = highscore;
     }
 
-    //looser pick - too high
+    //wrong number
   } else if (guess !== number) {
     if (score > 1) {
       displayMessage(
